@@ -1,0 +1,19 @@
+# AI/ML Core
+transformers
+torch
+torchvision
+torchaudio
+datasets
+evaluate
+accelerate
+
+# Data Handling & Preprocessing
+pandas
+librosa
+soundfile
+pydub
+stable-ts
+audiomentations
+
+# Metrics Dependency
+jiwer

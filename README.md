@@ -1,12 +1,15 @@
-# WESOLUTION-TBM-Analyzer
+# WESOLUTION-TBM-Summarizer
 
 **AI 음성인식 기반 TBM 회의록 자동 요약**
 
 본 프로젝트는 위솔루션 2025년 여름방학 현장실습의 일환으로 진행되었습니다.
 
+[![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)](https://www.python.org/)
+[![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Models-ffc83d?style=for-the-badge)](https://huggingface.co/)
+
 ## 📌 프로젝트 개요 (Overview)
 
-WESOLUTION-TBM-Analyzer는 **음성인식 기반 회의록 자동 요약 시스템** 입니다. 건설 현장에서 구두로 진행되는 TBM(Tool Box Meeting)의 음성 파일을 **음성 인식 모델(STT)** 로 텍스트화하고, **대규모 언어 모델(LLM)** 을 활용해 핵심 안전 정보를 자동으로 추출합니다.
+WESOLUTION-TBM-Summarizer는 **음성인식 기반 회의록 자동 요약 시스템** 입니다. 건설 현장에서 구두로 진행되는 TBM(Tool Box Meeting)의 음성 파일을 **음성 인식 모델(STT)** 로 텍스트화하고, **대규모 언어 모델(LLM)** 을 활용해 핵심 안전 정보를 자동으로 추출합니다.
 
 ## ✨ 핵심 기능 (Core Features)
 
@@ -33,7 +36,7 @@ WESOLUTION-TBM-Analyzer는 **음성인식 기반 회의록 자동 요약 시스�
 
 1. **STT 변환 모듈 (whisperx)**: TBM 음성 파일을 입력받아 고성능 STT 모델로 초고속 텍스트 전사를 수행합니다.
 
-![stt](images/stt_answer.png)
+![stt](images/tbm_answer.png)
 
 2. **텍스트 전처리기 (LlamaCpp, 1단계)**: 전사된 텍스트의 미세한 오류를 [SKT A.X-4.0-Light-GGUF](https://huggingface.co/Mungert/A.X-4.0-Light-GGUF)와 같은 LLM으로 교정하여 정보의 정확성을 1차적으로 확보합니다.
 

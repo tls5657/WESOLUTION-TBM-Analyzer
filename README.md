@@ -1,8 +1,6 @@
-# WESOLUTION-TBM-Summarizer
+# AI TBM 요약 시스템
 
-**AI 음성인식 기반 TBM 회의록 자동 요약**
-
-본 프로젝트는 위솔루션 2025년 여름방학 현장실습의 일환으로 진행되었습니다.
+**본 프로젝트는 `위솔루션 2025년 여름방학 현장실습`의 일환으로 진행되었습니다.**
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)](https://www.python.org/)
 [![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Models-ffc83d?style=for-the-badge)](https://huggingface.co/)
